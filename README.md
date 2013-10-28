@@ -31,7 +31,7 @@ Full usage:
       --destination DESTINATION
                             Where to save the images to
       --num-images NUM_IMAGES
-                            Where to save the images to
+                            The number of images to fetch (default 3)
       --resolution RESOLUTION
                             Resolution of the images (e.g. 1440x900)
       --sort-by SORT_BY     How to sort the images

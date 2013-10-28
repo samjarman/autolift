@@ -12,7 +12,7 @@ import argparse
 parser = argparse.ArgumentParser(description='A tool for downloading images from Interfacelift.Com')
 parser.add_argument('--api-key', required=True, help='Your interfacelift API key (available from interfacelift.com)')
 parser.add_argument('--destination', default='.', type=dir, help='Where to save the images to')
-parser.add_argument('--num-images', default=3, type=int, help='Where to save the images to')
+parser.add_argument('--num-images', default=3, type=int, help='The number of images to fetch (default 3)')
 parser.add_argument('--resolution', default='1440x900', help='Resolution of the images (e.g. 1440x900)')
 parser.add_argument('--sort-by', default='date', help='How to sort the images')
 parser.add_argument('--order', default='desc', help='Which order the images are sorted in')
