@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 '''
 AutoLift - A tool for downloading images from Interfacelift.Com
 Author: Sam Jarman
