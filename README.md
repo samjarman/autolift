@@ -1,16 +1,17 @@
-Autolift
-=====
+# Autolift
 
-This tool lets you download as many images as you like from Interfacelift.com. Simply set the parameters at the top of the file, save and run with 
+This tool lets you download as many images as you like from [interfacelift.com](http://interfacelift.com).
 
-<pre><code> $python Autolift.py </code></pre>
+## Installation
 
-========
+You'll need [an API key from interfacelift](https://www.mashape.com/interfacelift/wallpapers/pricing). Heads up, they charge.
 
-API key - You'll need to get an API key yourself from [here](https://www.mashape.com/interfacelift/wallpapers/pricing). Heads up, they charge. 
+You'll also need the unirest library. You can install it with [pip](http://www.pip-installer.org/):
 
-========
-Unirest - You'll also need unirest. Grab it simply with pip
-<pre><code> $pip install unirest </code></pre>
+    $ pip install unirest
 
-Read more about unirest [here](http://unirest.io/python.html)
+## Usage
+
+Edit `Autolift.py`. Modify the parameters at the top of the file, save and run with:
+
+    $ python Autolift.py
